@@ -14,13 +14,7 @@ char productionSet[10][10];
 
 {
 
-    int i;
-
-    char choice; 
-
-    char c;
-
-    char result[20];
+    
 
     printf("How many number of productions ? :");
 
@@ -63,15 +57,7 @@ char productionSet[10][10];
 
 }
 
-/*
 
- *Function FIRST:
-
- *Compute the elements in FIRST(c) and write them
-
- *in Result Array.
-
- */
 
 void FIRST(char* Result,char c)
 
@@ -117,14 +103,7 @@ void FIRST(char* Result,char c)
 
  if(productionSet[i][2]=='$') addToResultSet(Result,'$');
 
-            //If X is a non-terminal, and X → Y1 Y2 … Yk
-
-            //is a production, then add a to FIRST(X)
-
-            //if for some i, a is in FIRST(Yi),
-
-            //and ε is in all of FIRST(Y1), …, FIRST(Yi-1).
-
+      
       else
 
             {
