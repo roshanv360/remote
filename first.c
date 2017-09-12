@@ -14,13 +14,7 @@ char productionSet[10][10];
 
 {
 
-    int i;
-
-    char choice; 
-
-    char c;
-
-    char result[20];
+    
 
     printf("How many number of productions ? :");
 
