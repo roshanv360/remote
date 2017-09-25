@@ -13,7 +13,7 @@ char productionSet[10][10];
  int main()
 
 {
-
+change kiya mena
     
 
     printf("How many number of productions ? :");
