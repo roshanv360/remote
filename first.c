@@ -17,7 +17,7 @@ char productionSet[10][10];
  int main()
 
 {
-
+change kiya mena
     
 
     scanf(" %d",&numOfProductions);
