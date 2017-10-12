@@ -16,8 +16,6 @@ char productionSet[10][10];
 
     
 
-    printf("How many number of productions ? :");
-
     scanf(" %d",&numOfProductions);
 
     for(i=0;i<numOfProductions;i++)//read production string eg: E=E+T
