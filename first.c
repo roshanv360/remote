@@ -2,6 +2,10 @@
 
 #include<ctype.h>
 
+
+git config --add remote.origin.proxy ""
+
+
 void FIRST(char[],char );
 
 void addToResultSet(char[],char);
